@@ -23,9 +23,6 @@ class NumberCell: UICollectionViewCell {
 
 ### UICollectionViewDiffableDataSource
 ```swift  
-import UIKit
-
-class ViewController: UIViewController {
     enum Section {
         case main
     }
@@ -57,7 +54,6 @@ class ViewController: UIViewController {
         dataSource.apply(initialSnapshot, animatingDifferences: false)
         
     }
-}
 
 ```  
 
