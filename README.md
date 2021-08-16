@@ -21,7 +21,8 @@ class NumberCell: UICollectionViewCell {
 
 ```  
 
-### **[UICollectionViewDiffableDataSource](https://github.com/YamamotoDesu/SimpleCollectionView/blob/main/CollectionView/ViewController.swift)**
+### UICollectionViewDiffableDataSource  
+**[dataSource](https://github.com/YamamotoDesu/SimpleCollectionView/blob/main/CollectionView/ViewController.swift)**
 ```swift  
     enum Section {
         case main
